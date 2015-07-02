@@ -1,0 +1,40 @@
+body {
+  pointer-events: none;
+}
+a {
+  pointer-events: all;
+}
+.alert {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+  width: 100%;
+  margin-left: -20px;
+}
+.jumbotron {
+  padding: 10px;
+  background-color: ivory;
+}
+#wordButtons, #charButtons {
+  font-family: monospace;
+}
+#contents {
+  margin-top: 75px;
+}
+#tryAgain, #wordIs {
+  margin-top: 25px;
+}
+.navbar-default {
+  background-color: moccasin;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#canvas {
+  padding-top: 10px;
+}
+@media (max-width: 600px) {
+  .verbose_text {
+    display: none;
+  }
+}
