@@ -13,7 +13,9 @@ var newGame, drawGfx, wordsAndRandomizer, updateWinsAndLossesDisplay, gameOver, 
 var displayButtonsForCharacters, handleLetterFromKeyboard, showMessage, checkLetterForMatchesWithWordAndUpdateHangman;
 var changeCharButtonToRedOrGreen, updateHangmanStatusAndCheckForLostGame;
 
-$(document).ready(newGame);
+$(document).ready(function(){
+  newGame();
+});
 
 newGame = function(){
   hangmanStatus = 0;
